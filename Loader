@@ -13,8 +13,8 @@ local charactertab = win:Tab('Visuals')
 local uitab = win:Tab('UI')
 
 
-charactertab:Button('Chams', function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Apollo153/script/main/Visuals", true))()
+charactertab:Button('Chams', function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Apollo153/script/main/Visuals", true))()
+
     print(Esp)
 end)
 charactertab:Button('Crosshair', function()-- Custom Crosshair by zzerexx#3970
