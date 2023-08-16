@@ -1,0 +1,34 @@
+ 	local BlekLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/bleklib/main/library.lua"))()
+
+local win = BlekLib:Create({
+    Name = "Eternal | Legit  ",
+    StartupSound = {
+        Toggle = true,
+        SoundID = "rbxassetid://6958727243", -- Win 11 Startup Sound
+        TimePosition = 1
+    }
+})
+
+local charactertab = win:Tab('Visuals')
+local uitab = win:Tab('UI')
+
+
+charactertab:Button('Chams', function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Apollo153/script/main/Visuals", true))()
+    print(Esp)
+end)
+charactertab:Button('Crosshair', function()-- Custom Crosshair by zzerexx#3970
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Apollo153/script/main/CrossHair", true))()
+    Print("CrosshairInjected")
+end)
+charactertab:Button('FOV (MAY BAN)', function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Apollo153/script/main/Field%20Of%20View", true))()
+    Print("Injected")
+end)
+charactertab:Button('FullBright (may ban)', function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Apollo153/script/main/FB", true))()
+   Print("Injected")
+end)
+uitab:Button('Close UI (you have 2 re inject when done)', function()
+    win:Exit()
+end)
