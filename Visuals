@@ -1,5 +1,5 @@
 --[[
-	
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
 for i,v in pairs(game:GetService("ReplicatedStorage").Player:GetDescendants()) do
 if v:IsA("MeshPart") or v:IsA("Part") then
@@ -140,6 +140,3 @@ if v:FindFirstChild("Torso") then
 v:FindFirstChild("Head").Size = Vector3.new(2, 3, 3)
 end
 end
-
-    print(Esp)
-end)
