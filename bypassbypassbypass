@@ -1,0 +1,4 @@
+warn("ONLY USE THIS FOR THE TEMP SCRIPT ON FREE!")
+warn(Wait 15 seconds for the bypass to work!)
+wait("15")
+warn("Loaded join now!")
